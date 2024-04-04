@@ -120,6 +120,10 @@ address{
 
     align-items: center;
     text-align: center;
+    background-image: rgba(0, 0, 0, 0.2), url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {
