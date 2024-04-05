@@ -191,6 +191,13 @@ font-family: "Roboto", sans-serif;
     gap: 24px;
     justify-content: space-between;
 }
+.icon-list {
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+}
 .middle-list-link {
     
     width: calc((100% - 72px) / 4);
