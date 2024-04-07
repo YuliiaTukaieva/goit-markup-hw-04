@@ -42,7 +42,7 @@ address{
 }
 /*----------HEADER----------*/
 .header {
-    
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);;
     border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
@@ -95,8 +95,13 @@ address{
 .header-menu-link:focus {
     color: #404bbf;
 }
+.header-menu-studio {
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-menu-studio::after {
-    content: " ";
+    content: '';
         display: block;
         position: absolute;
         margin-top: 20px;
@@ -104,10 +109,18 @@ address{
     width: 48px;
     height: 4px;
     background: #404bbf;
+    left: 0;
+    bottom: -1px;
 }
 .header-menu-info {
     display: flex;
     gap: 40px;
+}
+.header-logo-info {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-logo-mobile {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .header-menu-info-inform {
     font-family: "Roboto", sans-serif;
@@ -127,15 +140,13 @@ address{
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        max-width: 100%;
+        max-width: 1440px;
     
 }
 
@@ -164,6 +175,7 @@ address{
         margin-right: auto;
         min-width: 169px;
         height: 56px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn-btn {
 font-family: "Roboto", sans-serif;
