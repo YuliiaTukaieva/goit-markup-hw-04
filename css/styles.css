@@ -95,6 +95,16 @@ address{
 .header-menu-link:focus {
     color: #404bbf;
 }
+.header-menu-studio::after {
+    content: " ";
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+}
 .header-menu-info {
     display: flex;
     gap: 40px;
@@ -441,9 +451,23 @@ font-family: "Roboto", sans-serif;
 .footer-text:focus {
     color: #404bbf;
 }
+..icon-link-footer {
+    background-color: #4d5ae5;  
+}
+.icon-link-footer:hover {
+   background-color: #31d0aa;
+}
 .footer-icon-list {
 flex-direction: column;
     
+}
+.social-media {
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
 }
 .footer-icon-link {
     width: 24px;
