@@ -446,12 +446,13 @@ font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
 .footer-about {
     flex-direction: column;
-    padding-right: 120px;
     background: #2e2f42;
+    margin-right: 120px;
 
 }
 .footer-logo {
@@ -477,9 +478,17 @@ font-family: "Roboto", sans-serif;
     color: #404bbf;
 }
 
-.footer-item{
+.footer-item {
     width: 40px;
     height: 40px;
+}
+.footer-list-soc {
+    display: flex;
+    gap: 16px;
+    width: 232px;
+        height: 40px;
+        margin: auto;
+        justify-content: center;
 }
 
 .footer-link {
@@ -496,6 +505,9 @@ font-family: "Roboto", sans-serif;
 .footer-link:hover {
    background-color: #31d0aa;
 }
+.footer-link:focus {
+    background-color: #31d0aa;
+ }
 
 .footer-icon-list {
 flex-direction: column;
