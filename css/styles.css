@@ -485,8 +485,7 @@ font-family: "Roboto", sans-serif;
 .footer-list-soc {
     display: flex;
     gap: 16px;
-    width: 232px;
-        height: 40px;
+    
         margin: auto;
         justify-content: center;
 }
@@ -512,7 +511,7 @@ font-family: "Roboto", sans-serif;
 
 .footer-icon-list {
 flex-direction: column;
-    
+  
 }
 .social-media {
 
