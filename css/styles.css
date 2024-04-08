@@ -485,8 +485,6 @@ font-family: "Roboto", sans-serif;
 .footer-list-soc {
     display: flex;
     gap: 16px;
-    
-        margin: auto;
         justify-content: center;
 }
 
